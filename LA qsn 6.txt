@@ -1,0 +1,9 @@
+LA qsn 6
+
+processes running in the system owned by root
+
+$ ps aux | grep root$
+
+sorted by process IDs
+
+$ ps -eo pid,%cpu,user | awk '$3 == "root" {print $1, $2}' | sort -n -k 1 > current_timestamps.txt

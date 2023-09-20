@@ -1,0 +1,6 @@
+LA qsn 8 :
+
+$ gzip filename
+	filename.gz
+$ gunzip filename.gz
+	filename

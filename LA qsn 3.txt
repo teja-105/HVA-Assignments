@@ -1,0 +1,18 @@
+Question 3
+
+
+$ su
+  enter password :
+$ cd .. 
+$ useradd nginx
+$ passwd nginx
+  new password : IamNginx
+$ groupadd mygroup
+$ usermod -a -G mygroup nginx
+$ touch /home/nginx/randomfile
+$ chmod 640 /home/nginx/randomfile
+$ whoami
+  nginx
+$ su
+  enter password :
+$ mkdir copy
