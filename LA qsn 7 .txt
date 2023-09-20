@@ -1,0 +1,17 @@
+LA qsn 7 :
+
+$ grep 'apple' fruits
+
+highlights every apple word in fruits file
+
+$ sed -i 's/old_word/new_word/g' fruits
+
+$ cat fruits
+
+2 :
+
+sed -i 's/banana/apple/1; s/banana/apple/2; s/banana/apple/3; s/banana/apple/4; s/banana/apple/5;' fruits
+
+3:
+
+sed 's/banana\|apple/mango/g' fruits

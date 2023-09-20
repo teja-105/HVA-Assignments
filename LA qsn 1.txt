@@ -1,0 +1,31 @@
+Question 1
+
+1 :
+
+$ mkdir cloud-curriculum
+$ cd cloud-curriculum
+$ mkdir Fundamentals Linux Networking 'AWS Cloud'
+$ cd Fundamentals
+$ mkdir Python Git
+$ cd Python
+$ touch DSA.py OOPS.py
+$ cd ..
+$ cd ..
+$ cd Linux
+$ cd OperatingSystem BasicCommands FileSystems
+$ cd BasicCommands
+$ touch ls.sh mkdir.sh cd.sh
+$ cd ..
+$ cd ..
+$ cd Networking
+$ touch OSILayers.txt Firewalls.txt Subnets.txt
+$ cd ..
+$ cd ..
+$ cd 'AWS Cloud'
+$ mkdir Compute Storage 'Access Management'
+
+2 :
+
+$ mkdir cloud-curriculum2
+$ cp -r cloud-curriculum cloud-curriculum2
+$ rm -r cloud-curriculum

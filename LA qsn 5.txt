@@ -1,0 +1,19 @@
+LA qsn 5
+
+1.
+$ head -n 10 /var/log/secure
+
+2.
+$ tail -n 10 /var/log/secure
+
+3.
+$ sed -n '5,10p' /var/log/secure
+
+4.
+$ grep "system" /var/log/secure | tail -n 10
+
+5.
+$ grep "system" /var/log/secure | grep -v "root" | tail -n 10
+
+6.
+$ grep -c "root" /var/log/secure

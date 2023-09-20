@@ -1,0 +1,14 @@
+Question 2
+
+$ ls -lhrta
+
+	drwxrwxr-x.  6 tejachintapalli tejachintapalli   74 Sep  7 13:14 cloud-curriculum
+	drwxr-xr-x.  3 tejachintapalli tejachintapalli   30 Sep  7 13:30 .
+	drwx------. 17 tejachintapalli tejachintapalli 4.0K Sep 11 07:38 ..
+
+  ls - List all directories and files
+  -l - long format listing , that provides detailed info about each file and directory
+  -h - makes it human readable
+  -t - it sorts the files and directories by modification time, with the newest files or directories listed first.
+  -r - it will show in reverse order i.e.. oldest first and new ones last
+  -a - it will show the hidden files in the directory

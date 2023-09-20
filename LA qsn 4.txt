@@ -1,0 +1,17 @@
+Linux Assignment qsn 4:
+
+$ find / -type f -name "auth.log"
+
+I'm using RedHat Linux here, So I don't have auth.txt, instead I have Source
+
+[root@localhost /]# find / -type f -name "sample"
+
+/var/log/secure
+
+[root@localhost /]# cd /var/log
+
+[root@localhost log]# file secure
+
+secure: ASCII text, with very long lines
+
+[tejachintapalli@localhost /]$ find / -type f -name "secure" -mtime -5
